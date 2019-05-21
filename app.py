@@ -2,11 +2,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License. See LICENSE in the project root for license information.
 #-----------------------------------------------------------------------------------------
-
-import ptvsd
-ptvsd.enable_attach(redirect_output=True)
-ptvsd.wait_for_attach()
-
 import torch
 import numpy as np
 from flask import Flask
